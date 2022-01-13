@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<script>
+"use strict";
+let login = prompt('Write your login please', '');
+if (login == '' || login == null) {
+    alert ('Canceled');
+} 
+else if (login == 'admin') {
+    let password = prompt('Password', '');
+    if (password == '' || login == null) {
+         alert ('Canceled');
+    } 
+    else if (password == 'I_am_boss') {
+        alert ('Hello, Boss!');
+    } 
+    else {
+        alert ('Wrong password');
+    }
+} 
+else {
+    alert ('I do not know you');
+}
+</script>
